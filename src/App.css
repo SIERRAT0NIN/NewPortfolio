@@ -27,11 +27,20 @@
   text-align: center;
 }
 body {
-  background-image: var(--gradient-5);
+  /* background-image: var(--gradient-5);
 
   @media (--OSdark) {
     background-image: var(--gradient-15);
   }
+   */
+  background-image: radial-gradient(
+    circle,
+    #0066ff,
+    #0095ff,
+    #00b7ff,
+    #00d3f1,
+    #12ebd7
+  );
 }
 
 .colored {
